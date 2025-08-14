@@ -1,0 +1,66 @@
+[
+  {
+    "year": 1969,
+    "title": "Formation of ISRO",
+    "description": "The Indian Space Research Organisation (ISRO) was established to harness space technology for national development.",
+    "category": "organization"
+  },
+
+
+  {
+    "year": 1975,
+    "title": "Aryabhata — First Indian Satellite",
+    "description": "India’s first satellite, Aryabhata, was launched, marking the country’s entry into space.",
+    "category": "satellite"
+  },
+
+
+  {
+    "year": 1980,
+    "title": "Rohini (RS-1) via SLV-3",
+    "description": "India placed Rohini RS-1 into orbit using the indigenous SLV-3, proving launch capability.",
+    "category": "satellite"
+  },
+
+
+  {
+    "year": 1994,
+    "title": "PSLV-D2 Success",
+    "description": "PSLV achieved a key success, becoming ISRO’s workhorse launcher for diverse missions.",
+    "category": "launchVehicle"
+  },
+
+
+  {
+    "year": 2008,
+    "title": "Chandrayaan-1",
+    "description": "India’s first lunar mission discovered water molecules on the Moon.",
+    "category": "lunar"
+  },
+
+
+  {
+    "year": 2013,
+    "title": "Mars Orbiter Mission (Mangalyaan)",
+    "description": "India’s first interplanetary mission; ISRO reached Mars orbit on its maiden attempt.",
+    "category": "mars"
+  },
+
+
+  {
+    "year": 2017,
+    "title": "PSLV-C37 — 104 Satellites",
+    "description": "A single PSLV mission deployed 104 satellites, demonstrating precise rideshare capability.",
+    "category": "launchVehicle"
+  },
+
+
+  {
+    "year": 2023,
+    "title": "Chandrayaan-3 — South Pole Landing",
+    "description": "India achieved a soft landing near the Moon’s south pole, a historic milestone.",
+    "category": "lunar"
+  }
+
+
+]

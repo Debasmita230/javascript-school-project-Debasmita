@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+   }
+
+header {
+    background-color: #003366;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+    padding-bottom: 20px;
+}   
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #B2BEB5;
+
+    color: #333;
+
+    line-height: 1.6;
+}  
+
+.timeline {
+
+    position: relative;
+
+    max-width: 900px;
+
+    margin: left;
+
+    padding: 20px ;
+}
+
+div  {
+
+     padding:20px;
+
+     }
+
+.left-content {
+
+
+    flex: 1;
+
+    padding: 20px;
+
+    }
+
+.right-image {
+
+      flex :1;
+     }
+
+
+
+
+.content-area {
+
+    display: flex; 
+
+    min-height: 100vh; 
+}
+
+.timeline-images {
+
+  display: flex;
+
+  flex-direction:column;
+
+  gap: 5px; 
+}
+
+
+.right-image img {
+
+  width: 550px;   
+
+  height: auto;   
+
+  border-radius: 20px;    
+    
+}
+
+
+
+.modal {
+
+  display: none; 
+
+  position: fixed;
+
+  z-index: 1000;
+
+  left: 0;
+
+  top: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  overflow: auto; 
+
+  background-color: rgba(255,255,255,0.7); 
+
+}
+
+
+.modal-box {
+
+  background: #FFFAFA;
+
+  margin: 10% auto;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  max-width: 600px;
+
+  width: 90%;
+
+  box-shadow: 0 5px 15px rgba(255, 99, 71, 0.5);
+}
+
+
+.close {
+
+  color: #333;
+
+  float: right;
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.close:hover {
+
+  color: white;
+
+}
+
+.event-marker {
+
+  background: #778899;
+
+  margin: 10px 0;
+
+  padding: 15px;
+
+  border-left: 5px solid #003366;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: background 0.3s;
+
+}
+
+.event-marker:hover {
+
+  background: #FF6347;
+
+}
+
+
+
+
+@media (max-width: 1023px) and (min-width: 768px) {
+
+    .left-content {
+
+        flex-direction: column;
+
+    }
+
+    .right-image img {
+
+        height: auto;
+
+    }
+}
+
+@media (max-width: 767px) {
+
+    .left-content {
+
+        flex-direction: column;
+    }
+
+    .timeline {
+
+        padding: 15px;
+    }
+
+    .right-image img {
+
+        height: auto;
+    }
+}

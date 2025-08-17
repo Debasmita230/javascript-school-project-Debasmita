@@ -1,0 +1,26 @@
+{
+  "name": "javascript-school-project-debasmita",
+  "version": "1.0.0",
+  "description": "->  Stage 1 – HTML Structure (Static)",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debasmita230/javascript-school-project-Debasmita.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Debasmita230/javascript-school-project-Debasmita/issues"
+  },
+  "homepage": "https://github.com/Debasmita230/javascript-school-project-Debasmita#readme",
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  }
+}

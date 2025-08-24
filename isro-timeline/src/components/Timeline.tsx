@@ -56,10 +56,11 @@ const events: Event[] = [
 ];
 export default function Timeline() {
   return (
-    <section className="timeline">
+    <section id="main" className="timeline" aria-label="ISRO Historical Timeline">
       {events.map((event, index) => (
-        <div key={index} className="timeline-event">
-          <div className="timeline-year">{event.year}</div>
+        <div key={index} className="timeline-event" role="article" aria-labelledby={`event-title-${index}`} 
+          aria-describedby={`event-desc-${index}`}>
+          <div className="timeline-year" aria-label={`Year ${event.year}`}>{event.year}</div>
           <div className="timeline-content" data-aos="fade-up">
             <h3>{event.title}</h3>
             <p>{event.description}</p>
